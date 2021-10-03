@@ -1,0 +1,73 @@
+#widgetCurrency{
+	background: white;
+	border: 1.5px solid white;
+	box-shadow: -0.5em 0.5em 0.3em #013b75;
+	border-radius: 3px;
+	width: max-content;
+	font-family: sans;
+	font-weight:bold;
+}
+
+#widgetCurrency tr {
+	font-size:50%;
+	color: #3661b1;
+	border-width: 0.5px;
+}
+
+#widgetCurrency td {
+	text-shadow: RGBA(0,0,0,0.2) -0.01em 0.1em;
+	border-width: 0.5px;
+}
+
+#widgetCurrency tr:nth-child(1) {
+	color: white;
+	font: 50% arial;
+	text-shadow: #938400 -0.1em 0.1em;
+	font-weight: bolder;
+}
+#widgetCurrency tr:nth-child(1) td{
+	background: #f5e01b;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+#widgetCurrency tr:nth-child(1) td:nth-child(2){
+	border-style: none solid none solid;
+	border-width: 0.1px;
+}
+#widgetCurrency tr:nth-child(1) {
+	font-size: 50%;
+	padding: 0px;
+}
+#widgetCurrency table{
+	font-size: xx-large;
+	width: 100%;
+	text-align: center;
+	box-shadow: inset rgba(255,255,255,0.2) 0.1em 1em 0.01em 0em, inset rgba(0,0,0,0.2) 0.05em -0.1em 0.1em 0.01em;
+	border-collapse: collapse;
+	border-radius: 0.2em;
+}
+#widgetCurrency tr:nth-child(2){
+	border-color: #004d9a;
+    border-style: none none solid none;
+}#widgetCurrency tr:nth-child(3){
+	border-color: #004d9a;
+    border-style: none none solid none;
+}#widgetCurrency tr:nth-child(4){
+	border-color: #004d9a;
+    border-style: none none solid none;
+}
+
+#BTC_USD{
+    border-style: solid solid solid solid;
+}
+#ETH_USD{
+    border-style: solid solid solid solid;
+}
+
+#LTC_USD{
+    border-style: none solid none solid;
+}#USDT_USD{
+    border-style: none solid none solid;
+}
